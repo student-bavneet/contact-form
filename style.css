@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  
+  /* fourth form */
+  
+  .section4 {
+    background: linear-gradient(to right, rgb(139, 192, 246), rgb(129, 168, 206));
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container4 {
+    display: flex;
+    font-family: sans-serif;
+  }
+  .container4 .box1 {
+    background-color: white;
+    padding: 40px;
+    width: 450px;
+  }
+  .container4 .box1 h2 {
+    color: rgb(58, 115, 248);
+    font-weight: 520;
+  }
+  .container4 .box1 select {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    color: grey;
+    padding: 10px;
+  }
+  .container4 .a {
+    display: flex;
+    justify-content: space-between;
+  }
+  .container4 .box1 .b {
+    width: 48%;
+  }
+  .container4 .box1 .b input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    padding: 10px;
+  }
+  .container4 .box1 .b input::placeholder {
+    color: lightgray;
+  }
+  .container4 .box1 input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    padding: 10px;
+  }
+  .container4 .box1 input::placeholder {
+    color: lightgray;
+  }
+  
+  .container4 .box2 {
+    background-color: rgb(58, 64, 248);
+    color: white;
+    padding: 40px;
+    width: 450px;
+  }
+  .container4 .box2 h2 {
+    font-weight: 520;
+  }
+  .container4 .box2 input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    padding: 10px;
+    background-color: transparent;
+  }
+  .container4 .box2 input::placeholder {
+    color: lightgrey;
+  }
+  .container4 .box2 .b {
+    width: 28%;
+  }
+  .container4 .box2 .c {
+    width: 68%;
+  }
+  .container4 .box2 select {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+  }
+  .container4 .box2 .d input[type="checkbox"] {
+    width: 5%;
+  }
+  .container4 .box2 .d span {
+    font-weight: 100;
+    font-size: 14px;
+  }
+  .container4 .box2 .d a {
+    color: white;
+  }
+  .container4 .box2 .btn4 {
+    background-color: white;
+    width: 40%;
+    border-radius: 20px;
+  }
+  
